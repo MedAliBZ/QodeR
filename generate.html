@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylegen.css">
 </head>
 
 <body>
@@ -19,14 +20,13 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="read.html">QR read/scan</a>
+                    <a class="nav-link" href="generate.html">QR Generator</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="generate.html">QR generator</a>
-                </li>
+                    <a class="nav-link" href="read.html">QR Scanner</a>
                 </li>
             </ul>
         </div>
@@ -39,7 +39,7 @@
             <textarea id="gen" class="form-control" type="text" placeholder="your QR text here..."></textarea>
             <button id="codethis" type="button" class="btn btn-secondary">Code this</button>
         </div>
-        <div class="test">
+        <div class="QR-image">
             <img id="QRcode" src="http://api.qrserver.com/v1/create-qr-code/?data=your%20QR%20text%20here"
                 alt="you have to write something" class="img-thumbnail">
             <button id='download' type="button" class="btn btn-secondary">Download QR code</button>

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylescan.css">
 </head>
 
 <body>
@@ -19,21 +20,24 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="read.html">QR read/scan</a>
+                    <a class="nav-link" href="generate.html">QR Generator</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="generate.html">QR generator</a>
-                </li>
+                    <a class="nav-link" href="read.html">QR Scanner</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-
-    <p id="data"></p>
+    <h2>QR code scanner</h2>
+    <div class="scanner">
+        <textarea id="gen" class="form-control" type="text" placeholder="Insert the link of the QR code here..."></textarea>
+            <button id="decode" type="button" class="btn btn-secondary">Decode this</button>
+        <h3 id="data"></h3>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
