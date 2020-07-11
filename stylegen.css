@@ -3,28 +3,26 @@
     margin: 2%;
     }
     
-    .form-control{
+.form-control{
         height: 300px !important;
         white-space: pre-wrap;
         overflow-wrap: break-word;
     }
     
-    .input-txt{
+.input-txt{
         display: inline-grid;
         width: -webkit-fill-available;
     }
     
-    .img-thumbnail{
+.img-thumbnail{
         height: 300px;
     }
     
-    #QR-code{
+#QR-code{
     height:300px;
     }
     
-    
-    
-    .QR-image{
+.QR-image{
         text-align: center;
         display: flex;
         flex-direction: column;

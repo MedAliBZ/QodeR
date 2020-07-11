@@ -32,10 +32,23 @@
         </div>
     </nav>
 
+    <div class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="res/scanner.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+
     <h2>QR code scanner</h2>
     <div class="scanner">
         <textarea id="gen" class="form-control" type="text" placeholder="Insert the link of the QR code here..."></textarea>
             <button id="decode" type="button" class="btn btn-secondary">Decode this</button>
+             <div id="text-center">
+                <div class="spinner-border" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+              </div>
         <h3 id="data"></h3>
     </div>
 
