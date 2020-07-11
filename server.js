@@ -13,5 +13,5 @@ codethisB.addEventListener("click", function change() {
 var downloadB = document.getElementById("download")
 
 downloadB.addEventListener("click",() => {
-    saveAs(QRsrc.getAttribute('src'),"QodeR")
+    saveAs(QRsrc.getAttribute('src'),`QodeRbyMAB-${textbox.value}`)
 })
