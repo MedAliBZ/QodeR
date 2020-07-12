@@ -27,6 +27,7 @@
 
 .feat{
     display: flex;
+    margin: 2%;
 }
 
 
@@ -59,4 +60,8 @@
 
   .info span{
       font-size: 20px;
+  }
+
+  .more{
+      margin-top: 2%;
   }
