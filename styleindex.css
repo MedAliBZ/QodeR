@@ -49,3 +49,14 @@
   .features h2{
       text-align: initial;
   }
+
+  .info{
+      padding: 6%;
+      text-align: center;
+      font-weight: 400;
+  }
+
+
+  .info span{
+      font-size: 20px;
+  }
