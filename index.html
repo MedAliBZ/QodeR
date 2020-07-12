@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="styleindex.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
 </head>
 
 <body>
@@ -26,7 +27,7 @@
           <a class="nav-link" href="generate.html">QR Generator</a>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href="read.html">QR Scanner</a>
+          <a class="nav-link" href="read.html">QR Scanner <span class="badge badge-light">Beta</span></a>
       </li>
       </ul>
     </div>
@@ -59,7 +60,28 @@
     </a>
   </div>
 
+  <div class="intro">
+    <h1>Welcome to our website</h1>
+    <span>This is an online web QR code Generator and Scanner, hope you enjoy your experience with us.</span>
+  </div>
 
+  <div class="features">
+      <h2>Features</h2>
+    <div class="feat">
+      <div class="inside">
+      <h3>QR code Generator</h3>
+      <span>You can generate a QR code just by writing a text.<br>Simple and free.</span>
+      <a href="generate.html" class="btn btn-light">Check the Generator</a>
+    </div>
+    <div class="vl"></div>
+      <div class="inside">
+      <h3>QR code Scanner <span class="badge badge-light">Beta</span></h3>
+      <span>You can scan a QR code just by it's link<br>The scanner is still in beta, you may find some bugs!</span>
+      <a href="read.html" class="btn btn-light">Check the Scanner</a>
+    </div>
+  </div>
+  <span class="more">More features comming soon...</span>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
