@@ -26,29 +26,3 @@ decodeB.addEventListener("click", function decode() {
             spinner.style.display="none"
              data.innerHTML = `Your code says: ${s}` })
 })
-
-
-
-
-
-// fetch("https://qr-code-scanner.p.rapidapi.com/qr-code-scan/", {
-// 	"method": "GET",
-// 	"headers": {
-// 		"x-rapidapi-host": "qr-code-scanner.p.rapidapi.com",
-// 		"x-rapidapi-key": "34d319fce6msh24364e0e0846afbp16acf3jsneb303f62097d"
-// 	}
-// })
-
-// .then(response => {
-// 	return response.json()
-// })
-//     .then(body => {
-//         console.log(body)
-//         if (response.status === 200) {
-//             return body
-//         }
-//   })
-
-// .catch(err => {
-// 	console.log(err);
-// })
